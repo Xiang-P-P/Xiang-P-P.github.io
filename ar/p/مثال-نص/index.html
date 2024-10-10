@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://xiang-p-p.github.io/ar/p/%D9%85%D8%AB%D8%A7%D9%84-%D9%86%D8%B5/'>
 
-<link rel="stylesheet" href="/scss/style.min.60af57b6c91ac292e0ea59473349e19c06782f0a007780ae3cc64dcfb52d26a3.css"><meta property='og:title' content="مثال نص">
+<link rel="stylesheet" href="/scss/style.min.478012d4a46b198ba1ea03e2e65dae7103cce379fb31c0b1418b9a5d32f9b23f.css"><meta property='og:title' content="مثال نص">
 <meta property='og:description' content="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة">
 <meta property='og:url' content='https://xiang-p-p.github.io/ar/p/%D9%85%D8%AB%D8%A7%D9%84-%D9%86%D8%B5/'>
 <meta property='og:site_name' content='موقع تجريبي'>
@@ -16,6 +16,10 @@
     <meta name="twitter:image" content='https://xiang-p-p.github.io/p/placeholder-text/matt-le-SJSpo9hQf7s-unsplash.jpg' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
+<link
+  rel="stylesheet"
+  href="https://s1.hdslb.com/bfs/static/jinkela/long/font/regular.css"
+/>
     </head>
     <body class="
     article-page
@@ -373,46 +377,23 @@
      
     
         
-    <div class="disqus-container">
-    <div id="disqus_thread"></div>
-<script>
-    window.disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</div>
-
+    <script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
+<link href='//unpkg.com/@waline/client@v2/dist/waline.css' rel='stylesheet'/>
+<div id="waline" class="waline-container"></div>
 <style>
-    .disqus-container {
+    .waline-container {
         background-color: var(--card-background);
         border-radius: var(--card-border-radius);
         box-shadow: var(--shadow-l1);
         padding: var(--card-padding);
+        --waline-font-size: var(--article-font-size);
     }
-</style>
-
-<script>
-    window.addEventListener('onColorSchemeChange', (e) => {
-        if (typeof DISQUS == 'object') {
-            DISQUS.reset({
-                reload: true
-            });
-        }
-    })
+    .waline-container .wl-count {
+        color: var(--card-text-color-main);
+    }
+</style><script>
+    
+    Waline.init({"dark":"html[data-scheme=\"dark\"]","el":"#waline","emoji":["https://cdn.jsdelivr.net/gh/walinejs/emojis/qq","https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/alus","https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili"],"lang":"zh-CN","locale":{"admin":"博主","placeholder":null},"requiredMeta":["name","email","url"],"serverURL":"https://waline-swart-rho.vercel.app/","visitor":false});
 </script>
 
     
@@ -532,7 +513,6 @@
 <script src="https://npm.elemecdn.com/nprogress@0.2.0/nprogress.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://npm.elemecdn.com/nprogress@0.2.0/nprogress.css" crossorigin="anonymous" />
 <script  color="255,182,193" opacity='1' zIndex="-1" count="100" src="https://cdn.bootcss.com/canvas-nest.js/2.0.4/canvas-nest.js" type="text/javascript"></script>
-
 
     </body>
 </html>
