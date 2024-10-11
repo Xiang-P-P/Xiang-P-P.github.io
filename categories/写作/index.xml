@@ -13,7 +13,7 @@
         <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
         
         <guid>https://xiang-p-p.github.io/p/test-chinese/</guid>
-        <description>&lt;img src="https://xiang-p-p.github.io/test.jpg" alt="Featured image of post 第一篇yu-hugo-theme" /&gt;&lt;h2 id=&#34;正文&#34;&gt;正文
+        <description>&lt;img src="https://xiang-p-p.github.io/p/test-chinese/test.jpg" alt="Featured image of post 第一篇yu-hugo-theme" /&gt;&lt;h2 id=&#34;正文&#34;&gt;正文
 &lt;/h2&gt;&lt;h3 id=&#34;侧边优化滚动条失效的话将assetsscsspartialsbasescss-的-line-20-23注释掉&#34;&gt;侧边优化滚动条失效的话将\assets\scss\partials\base.scss 的 line 20-23注释掉
 &lt;/h3&gt;&lt;p&gt;在 &lt;code&gt;/assets/scss/custom.scss&lt;/code&gt; 中加入以下代码：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
